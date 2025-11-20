@@ -27,8 +27,6 @@ function Login() {
         catch(err){
             setError("Invalid email or password");
         }
-
-
     }
 
 
