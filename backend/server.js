@@ -1,9 +1,9 @@
 import express from "express"
 import dotenv from "dotenv"
 import cors from "cors"
-import userRoutes from "./src/routes/userRoutes.js"
-import adminRoutes from "./src/routes/adminRoutes.js"
-import authRoute from "./src/routes/authRoutes.js";
+import userRoutes from "./routes/userRoutes.js"
+import adminRoutes from "./routes/adminRoutes.js"
+import authRoute from "./routes/authRoutes.js";
 import { Register, Login, Me, Logout } from "../Controllers/authController.js";
 
 dotenv.config()
